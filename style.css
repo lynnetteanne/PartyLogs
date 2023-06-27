@@ -6,29 +6,37 @@
 
 /* add padding and margin to cards
 add flex or grid to cards */
+h1 {
+    margin: .5rem;
+    font-size: 3em;
+    border: 1px solid black;
+    text-align: center;
+}
+
 div#party-list-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-div.class {
- 
+div.party {
+    width: 30%;
     margin: .5em;
     padding: 2em;
     border-radius: 25px;
-    justify-content: space-evenly;
+    box-shadow: .6em .8em black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/* round the corners */
-
-/* center everthing */
 
 /* prettify the buttons */
 button {
-    width: 30%;
+    background-color: navy;
     margin: .5em;
     padding: 1.5em;
     border: .2em solid;
     border-radius: 10px;
-    
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: darkcyan;
 }
