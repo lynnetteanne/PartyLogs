@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 
-div#party-list-container {
+div#party-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -22,6 +22,7 @@ div.party {
     width: 30%;
     margin: .5em;
     padding: 2em;
+    border: 5px solid peachpuff;
     border-radius: 25px;
     box-shadow: .6em .8em black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -30,6 +31,7 @@ div.party {
 /* prettify the buttons */
 button {
     background-color: navy;
+    color: aliceblue;
     margin: .5em;
     padding: 1.5em;
     border: .2em solid;
