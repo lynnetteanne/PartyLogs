@@ -44,7 +44,6 @@ const deleteParty = async (id) => {
     console.error(error);
   }
 };
-};
 
 // render a single party by id
 const renderSinglePartyById = async (id) => {
