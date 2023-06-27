@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* add padding and margin to cards
+add flex or grid to cards */
+div#party-list-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.class {
+ 
+    margin: .5em;
+    padding: 2em;
+    border-radius: 25px;
+    justify-content: space-evenly;
+}
+
+/* round the corners */
+
+/* center everthing */
+
+/* prettify the buttons */
+button {
+    width: 30%;
+    margin: .5em;
+    padding: 1.5em;
+    border: .2em solid;
+    border-radius: 10px;
+    
+}
